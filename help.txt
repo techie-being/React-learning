@@ -1,0 +1,60 @@
+To create a react porject we have two methods 
+
+* First, understand the difference *
+
+React is a JavaScript library for building UI.
+
+To use React, you need a build tool (to bundle, transpile JSX, etc.).
+
+Earlier, the official way was Create React App (CRA). Now, people mostly use Vite, which is much faster.
+
+So, React = library.
+Vite = build tool (a replacement for CRA).
+
+* why we use vite instead of react *
+
+Speed 🚀
+
+CRA is slow (especially when starting dev server or rebuilding).
+
+Vite is super fast because it uses modern ES modules and builds only what’s needed.
+
+Lightweight ⚡
+
+CRA installs a huge amount of dependencies (~200MB).
+
+Vite installs only what you need (~20–30MB).
+
+Modern 🆕
+
+CRA is not actively maintained anymore.
+
+Vite is modern, widely used, and has better plugin support.
+
+Beginner friendly 👶
+
+CRA feels "official" but is outdated.
+
+Vite has simpler setup and better developer experience.
+👉 Even as a beginner, Vite is easier and faster.
+
+* How to create a React project with CRA (React only) *
+1.npx create-react-app my-app  //my-app is project Name
+
+2. Go into the project: cd my-app
+
+3. Start the dev server: npm start
+then : It opens at http://localhost:3000.
+
+* How to create a React project with Vite *
+1. npm create vite@latest my-vite-app // my-vite-app is project Name
+
+2.It will ask for framework → choose React (or React + TypeScript).
+
+3. Go into the project:  cd my-vite-app //terminal command
+
+4. Install dependencies:  npm install
+
+5. Start dev server: npm run dev
+
+👉 It opens at http://localhost:5173.
