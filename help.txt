@@ -58,3 +58,7 @@ then : It opens at http://localhost:3000.
 5. Start dev server: npm run dev
 
 👉 It opens at http://localhost:5173.
+
+
+1. evaluated expression is used to inject js variables "{}" represented by curly braces
+2. 

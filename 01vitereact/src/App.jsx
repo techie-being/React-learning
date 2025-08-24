@@ -1,9 +1,10 @@
 
-import Chai1 from "./Chai"   //imports "Chai" component from chai.jsx     .
+//imports "Chai" component from chai.jsx     .
 function App() {
-  
+  // how to inject variables in jsx, so we use a concept alled evaluated expression {} inside this braces it is considred as injected
+  const username = "rakesh";
   return (
-    <Chai1/>
+    <h1>hi  my name is {username} i am a developer</h1>
   )
 }
 
