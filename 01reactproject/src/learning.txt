@@ -1,0 +1,31 @@
+**why we use backgroundcolor like this **
+
+In React, the style attribute takes a JavaScript object (not a CSS string like in plain HTML).
+That’s why we use double curly braces:
+
+First {}: tells React this is JavaScript inside JSX.
+
+Second {}: defines a JavaScript object.
+
+
+** 
+onClick={() => setColor("red")}
+
+This is an event handler in React.
+
+onClick → Runs code when the button is clicked.
+
+() => setColor("red") → An arrow function that calls setColor("red").
+
+When you click the button:
+
+React calls setColor("red").
+
+The state variable color is updated to "red".
+
+React re-renders your component.
+
+Now style={{ backgroundColor: color }} becomes style={{ backgroundColor: "red" }}.
+
+The background changes to red.
+**
